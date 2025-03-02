@@ -1,0 +1,131 @@
+/* src/components/PayslipRequestForm.css */
+
+/* Container styles */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h3, h4, h5 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+/* Form section styles */
+form {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Row spacing and alignment for form fields */
+.row {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input[type="text"], input[type="number"], .form-control {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Table styles for allowances and deductions */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+table td input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+/* Button styles */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+button.primary:hover {
+  background-color: #0056b3;
+}
+
+button.secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+button.secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Spacing for the bottom of the form */
+button + button {
+  margin-left: 10px;
+}
+
+/* Add space between buttons */
+.form-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Input field styling for smaller elements */
+input[type="number"] {
+  width: 200px;
+}
+
+/* Label styles */
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
